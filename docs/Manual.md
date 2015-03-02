@@ -19,7 +19,7 @@ Resta agregar que los contenidos de las secciones son, principalmente, **artícu
 
 Organización - Usuarios
 -----------------------
-**Yavu CMS** reconoce tres grupos de usuarios genéricos, a los que otorga una serie de permisos y funciones que entenderemos como **roles**; a saber:
+**Yavu CMS** reconoce tres grupos de usuarios genéricos, a los que otorga una serie de permisos y funciones que entenderemos como [**roles**](#Roles de usuarios); a saber:
 
 ###Administrador
 Es el encargado de crear usuarios y establecer los roles de cada uno de ellos; debe configurar el sistema, administrar las aplicaciones, los componentes y los servidores, así como la estructura del sitio (categorías, ediciones, suplementos, secciones y portadas). Además de las funciones específicas propias de su rol, tiene permisos para realizar las tareas de los periodistas y diseñadores.
@@ -237,20 +237,11 @@ La unificación de distintas categorías bajo una misma se utiliza para evitar c
 Ediciones
 =========
 
-Creación de una edición
------------------------
-
 Suplementos
 ===========
 
-Creación de un suplemento
--------------------------
-
 Secciones
 =========
-
-Creación de una sección
------------------------
 
 Aplicaciones al cliente
 =======================
