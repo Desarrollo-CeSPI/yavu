@@ -197,7 +197,7 @@ Al finalizar, haga clic en *Listo* y, posteriormente, diríjase al final de la p
 Categorías
 ==========
 
-Las 
+Las *categorías* son palabras clave que se relacionan a los artículos y medios para mejorar la indexación de los contenidos.
 
 Creación de Categorías
 ----------------------
@@ -206,7 +206,7 @@ Creación de Categorías
 
 **Acceso:** Estructura>Categorías
 
-Las categorías son palabras clave que se relacionan a los artículos y medios para mejorar la indexación de los contenidos. Las mismas pueden ser creadas de manera muy sencilla en la instancia de edición de los artículos y medios escribiendo las palabras y separándolas con una coma, lo cual permite crear categorías de más de una palabra, como Universidad Nacional de La Plata. En esta instancia abordaremos su administración.
+Las categorías pueden ser creadas de manera muy sencilla en la instancia de edición de los artículos y medios escribiendo las palabras y separándolas con una coma, lo cual permite crear categorías de más de una palabra, como Universidad Nacional de La Plata. En esta instancia abordaremos su administración.
 
 Para crear una categoría, haga clic en *Nueva categoría*. A continuación complete:
 
@@ -247,8 +247,28 @@ La unificación de distintas categorías bajo una misma se utiliza para evitar c
 Ediciones
 =========
 
+Las *ediciones* son elementos que organizan el contenido de los suplementos de manera temporal. Un diario, por ejemplo, puede tener un suplemento con ediciones diarias, para mostrar el contenido de su página principal, y suplementos con ediciones semanales, como los dedicados a juventud, cocina, cultura, etc. Por otro lado, una universidad podría crear ediciones anuales para agrupar contenido y luego ocultar el que ya no sea útil a sus alumnos y docentes.
+
+Creación de una edición
+-----------------------
+
+**Usuario:** Administrador
+
+**Acceso:** Estructura>Ediciones
+  
+Para crear una edición, haga clic en *Nueva edición* y a continuación complete:
+- **Nombre:** por ejemplo *Diario - 20 de febrero de 2015*.
+- **Fecha:** día al que corresponde.
+- **Es visible:** tilde para hacer efectiva la publicación.
+- **Suplemento:** seleccione de la lista el suplemento al cual corresponde la edición.
+- **Atributos extra**
+
+Al finalizar, haga clic en *Crear edición*. Posteriormente, deberá *Marcar como activa la edición*, para comenzar un nuevo ciclo de publicación.
+
 Suplementos
 ===========
+
+Los *suplementos* son subsitios que agrupan ediciones y secciones con sus respectivas portadas y artículos.
 
 Secciones
 =========
