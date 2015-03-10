@@ -19,7 +19,7 @@ Resta agregar que los contenidos de las secciones son, principalmente, **artícu
 
 Organización - Usuarios
 -----------------------
-**Yavu CMS** reconoce tres grupos de usuarios genéricos, a los que otorga una serie de permisos y funciones que entenderemos como [**roles**](#Roles de usuarios); a saber:
+**Yavu CMS** reconoce tres grupos de usuarios genéricos, a los que otorga una serie de permisos y funciones que entenderemos como **roles**; a saber:
 
 ###Administrador
 Es el encargado de crear usuarios y establecer los roles de cada uno de ellos; debe configurar el sistema, administrar las aplicaciones, los componentes y los servidores, así como la estructura del sitio (categorías, ediciones, suplementos, secciones y portadas). Además de las funciones específicas propias de su rol, tiene permisos para realizar las tareas de los periodistas y diseñadores.
@@ -32,6 +32,8 @@ Es el encargado de cargar los artículos y las multimedias asociadas, es decir, 
 
 Artículos
 =========
+
+Se llama *artículo* a todo contenido periodístico que, para ser visible, debe incorporarse en la portada de un suplemento. Los mismos se asociacian a *secciones*, elementos que permiten organizar temáticamente la información, y pueden tener asociados uno o más *medios*, es decir, imágenes, archivos, audios o contenidos externos embebidos.
 
 Creación de artículos
 ---------------------
@@ -47,11 +49,11 @@ Completar los campos de texto:
 - **Firma:** campo opcional para indicar quién es el autor del artículo.
 - **Categorías:** son palabras clave que mejoran la indexación de los contenidos. Al redactar las primeras tres letras, el sistema intentará autocompletar las palabras para que coincidan con aquellas que ya hayan sido utilizadas. En caso de que no existan, redacte la o las palabras separadas por comas para crear la categoría. Si el periodista no completa este campo, un algoritmo definirá las palabras más importantes del texto en cuestión.
 - **Hora:** es posible especificar la hora de publicación. El formato es HH:mm 24 hs.
-- **Sección**
-- **Edición:** en el caso de los diarios, deberá indicarse a qué sección corresponde el artículo.
-- **Artículos relacionados:** si desea vincular artículos relacionados, comience a escribir el o los títulos en cuestión y seleccione alguna de las opciones del autocompletado que le ofrece el sistema.
+- **Sección** 
+- **Edición**
+- **Artículos relacionados:** si desea vincular artículos, comience a escribir el o los títulos en cuestión y seleccione alguna de las opciones del autocompletado que le ofrece el sistema.
 - **¿Es visible?:** para publicar un artículo en alguno de los suplementos de su sitio, tilde este campo. Si, en cambio, desea trabajar en el artículo sin publicarlo, deje sin tildar este campo.
-- **Ocultar en portadas de sección:**
+- **Ocultar en portadas de sección**
 - **Atributos extra**
 - **Estadísticas:** puede establecer votos positivos, votos negativos y visitas de base.
 
@@ -66,11 +68,11 @@ Administración de multimedias
 Existen tres opciones para asociar contenidos multimediales a un artículo:
 - **Seleccionar medios existentes:** mediante esta opción puede buscar imágenes, audios, archivos o contenidos embebidos que hayan sido previamente cargados; ya sea porque forman parte de un archivo, porque fueron utilizados en artículos anteriores o porque los cargó un colega. Para filtrar los resultados puede ingresar palabras clave en el cuadro de Búsqueda rápida, comenzar a escribir el título de un artículo al cual se encuentra asociado el contenido multimedia que busca, rastrearlo por los tipos detallados al inicio de este párrafo, o bien, por la fecha en que fueron utilizados. Recuerde hacer clic en *Buscar* para hacer efectiva la búsqueda. Posteriormente, seleccione con un tilde el elemento a asociar.
 - **Subir medios de su equipo:** la segunda opción consiste en subir a la web elementos que se encuentren en su computadora. Para ello, simplemente hay que seleccionar el tipo de medio a subir (imágenes, audios o archivos) y arrastrarlos a la zona gris de la interfaz, o bien, hacer clic donde dice *Arrastre aquí los archivos a subir o haga click aquí para seleccionarlos* y navegar por el explorador para encontrarlos.
-- **Agregar contenido embebido:** la última opción le permite crear una referencia en el sistema a contenidos multimediales que se encuentran en otros sitios web, es decir, embeberlos para mostrarlo en su página. De esta manera es posible asociar videos de Youtube, Vimeo y otros; audios de Souncloud, Goear y otros; mapas de Google, Bing y otros; publicaciones de Facebook, Twitter, Instagram, etc. así como cualquier contenido con un código embebed. Para hacerlo, simplemente hay que ingresar una descripción del contenido, establecer la fecha de carga o aquella a la que pertenece el elemento y pegar en el campo *Contenido* el código en cuestión.
+- **Agregar contenido embebido:** la última opción le permite crear una referencia en el sistema a contenidos multimediales que se encuentran en otros sitios web, es decir, embeberlos para mostrarlo en su página. De esta manera es posible asociar videos de Youtube, Vimeo y otros; audios de Souncloud, Goear y otros; mapas de Google, Bing, Mapbox, CartoDB y otros; publicaciones de Facebook, Twitter, Instagram, etc. así como cualquier contenido con un código embebed. Para hacerlo, simplemente hay que ingresar una descripción del contenido, establecer la fecha de carga o aquella a la que pertenece el elemento y pegar en el campo *Contenido* el código en cuestión.
 
 Al asociar contenidos multimediales de cualquiera de las tres maneras, se desplegará una fila en la interfaz que mostrará los medios que han sido asociados al artículo. Para cada uno de ellos podrá establecer *Epígrafe*, *Título* y *Texto alternativo*. Este última se utiliza para la indexación de las imágenes y para brindar información a los lectores de pantalla utilizados por personas con discapacidad.
 
-En el caso de que haya asociado más de una imagen, podrá seleccionar con un tilde aquella que debe ser la Imagen principal, a mostrarse en los módulos de artículos con imagen.
+En el caso de que haya asociado más de una imagen, podrá seleccionar con un tilde aquella que debe ser la *Imagen principal*, a mostrarse en los módulos de artículos con imagen.
 
 Al finalizar, recuerde hacer clic en *Listo*, para ingresar los cambios.
 
@@ -97,6 +99,8 @@ Sobre cada uno de los artículos se pueden ejercer las tres acciones que figuran
 
 Medios
 ======
+
+Se llama *medio* al contenido multimedial que acompaña a los artículos, es decir, imágenes, archivos, audios o contenidos externos embebidos.  
 
 Creación de contenidos multimediales
 ------------------------------------
@@ -147,6 +151,8 @@ Sobre cada uno de los medios se pueden ejercer tres acciones:
 Galería de medios
 =================
 
+Las *Galerías de medios* son elementos que agrupan medios y deben ser asociados a los *artículos*. 
+
 Creación de galerías de medios
 ------------------------------
 
@@ -164,6 +170,8 @@ Al finalizar, haga clic en *Crear galería*.
 
 Portadas
 ========
+
+Las *Portadas* son elementos que agrupan artículos para presentarlos a los usuarios de un sitio web. Las mismas se encuentran asociadas a los *suplementos*.
 
 Visualización de artículos (agregar en portada)
 -----------------------------------------------
@@ -188,6 +196,8 @@ Al finalizar, haga clic en *Listo* y, posteriormente, diríjase al final de la p
 
 Categorías
 ==========
+
+Las 
 
 Creación de Categorías
 ----------------------
