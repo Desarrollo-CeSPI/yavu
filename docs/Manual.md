@@ -102,8 +102,8 @@ Medios
 
 Se llama *medio* al contenido multimedial que acompaña a los artículos, es decir, imágenes, archivos, audios o contenidos externos embebidos.  
 
-Creación de contenidos multimediales
-------------------------------------
+Creación de medios
+------------------
 
 **Usuario:** Periodista
 
@@ -130,9 +130,9 @@ Al finalizar, hacer clic en Crear medio
 Acciones sobre el listado de medios
 -----------------------------------
 
-- **Usuario:** Periodista
+**Usuario:** Periodista
 
-- **Acceso:** Contenido>Medios
+**Acceso:** Contenido>Medios
 
 En el listado de medios se muestra una vista rápida de todos los medios que hayan sido cargados, que consta del *Tipo de elemento* (imagen, audio, archivo o contenido embebido), la *Descripción* y la *Vista previa* del mismo.
 
@@ -231,13 +231,7 @@ Por defecto, el administrador muestra 20 galerías, número que puede ser modifi
 
 Para buscar una categoría específica, puede acudir a la *Búsqueda simple* introduciendo palabras clave en el campo de texto que se encuentra en el margen superior derecho del administrador y presionar enter, o hacer clic en el botón que muestra una lupa. De esta manera, el sistema filtrará los resultados según la información solicitada. Para volver a ver el listado completo de galerías, haga clic en *Limpiar*. Además de este filtro, hay una opción que le permite mostrar la lista de categorías prohibidas.
 
-Sobre cada una de las categorías se puede ejercer una serie de acciones:
-
-- **Ver detalles**
-- **Modificar**
-- **Unificar**
-- **Agregar a la lista prohibida**
-- **Borrar**
+Sobre cada una de las categorías se puede ejercer una serie de acciones: *Ver detalles, Modificar, Unificar, Agregar a la lista prohibida y Borrar*
 
 Unificación de categorías
 -------------------------
@@ -247,7 +241,7 @@ La unificación de distintas categorías bajo una misma se utiliza para evitar c
 Ediciones
 =========
 
-Las *ediciones* son elementos que organizan el contenido de los suplementos de manera temporal. Un diario, por ejemplo, puede tener un suplemento con ediciones diarias, para mostrar el contenido de su página principal, y suplementos con ediciones semanales, como los dedicados a juventud, cocina, cultura, etc. Por otro lado, una universidad podría crear ediciones anuales para agrupar contenido y luego ocultar el que ya no sea útil a sus alumnos y docentes.
+Las *ediciones* son elementos que organizan el contenido de los suplementos de manera temporal. Un diario, por ejemplo, puede tener un suplemento con ediciones diarias, para mostrar el contenido de su página principal, y suplementos con ediciones semanales, como los dedicados a juventud, cocina, cultura, etc. Por otro lado, una universidad podría crear ediciones anuales o semenstrales para agrupar contenido y luego ocultar aquel que ya no sea útil a sus alumnos y docentes.
 
 Creación de una edición
 -----------------------
@@ -265,13 +259,29 @@ Para crear una edición, haga clic en *Nueva edición* y a continuación complet
 
 Al finalizar, haga clic en *Crear edición*. Posteriormente, deberá *Marcar como activa la edición*, para comenzar un nuevo ciclo de publicación.
 
+Desde el *listado de ediciones* podrá ver los detalles de cada una, modificarlas, borrarlas y ver los artículos que se encuentran asociados a dicha edición.
+
 Suplementos
 ===========
 
 Los *suplementos* son subsitios que agrupan ediciones y secciones con sus respectivas portadas y artículos.
 
+Creación de suplementos
+-----------------------
+
+**Usuario:** Administrador
+
+**Acceso:** Estructura>Suplementos
+
+Para crear un suplemento, haga clic en *Nuevo suplemento* y complete:
+- **Nombre:** para identificar el elemento
+- **Imagen de tapa:** imagen para el banner que encabezará el subsitio.
+
 Secciones
 =========
+
+
+
 
 Aplicaciones al cliente
 =======================
