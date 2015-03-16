@@ -259,7 +259,16 @@ Para crear una edición, haga clic en *Nueva edición* y a continuación complet
 
 Al finalizar, haga clic en *Crear edición*. Posteriormente, deberá *Marcar como activa la edición*, para comenzar un nuevo ciclo de publicación.
 
-Desde el *listado de ediciones* podrá ver los detalles de cada una, modificarlas, borrarlas y ver los artículos que se encuentran asociados a dicha edición.
+Activación y visibilización de ediciones
+----------------------------------------
+
+Al marcar como activa una edición se iniciará un nuevo ciclo de publicación, por lo cual los artículos que se creen se asociarán a ella. De esta manera, los administradores del sitio podrán agrupar los contenidos de manera temporal, escogiendo si desean tener ediciones diarias, semanales, mensuales, bimestrales, anuales, etc.
+
+Además es posible gestionar la visibilidad de las ediciones y, por ende, de los artículos que estén asociados a ellas. De esta manera se puede mantener un archivo de artículos visibles al público o invisibilizarlo, en caso de que la información ya no sea de utilidad.
+
+Desde el *listado de ediciones* podrá ver los detalles de cada una, activarlas, modificarlas, borrarlas y ver los artículos que se encuentran asociados a cada edición.
+
+Para invisibilizar una edición, haga clic en la acción *modificar* y destilde el campo *¿Es visible?*. Posteriormente, haga clic en *Actualizar edición*. 
 
 Suplementos
 ===========
