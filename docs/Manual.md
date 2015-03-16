@@ -273,7 +273,7 @@ Para invisibilizar una edición, haga clic en la acción *modificar* y destilde 
 Suplementos
 ===========
 
-Los *suplementos* son subsitios que agrupan ediciones y secciones con sus respectivas portadas y artículos.
+Los *suplementos* son subsitios que pueden presentar un diseño particular y agrupan ediciones y secciones con sus respectivas portadas y artículos.
 
 Creación de suplementos
 -----------------------
@@ -285,6 +285,9 @@ Creación de suplementos
 Para crear un suplemento, haga clic en *Nuevo suplemento* y complete:
 - **Nombre:** para identificar el elemento
 - **Imagen de tapa:** imagen para el banner que encabezará el subsitio.
+```
+¿Es así?
+```
 
 Secciones
 =========
